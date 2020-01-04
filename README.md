@@ -11,4 +11,5 @@ For **Java** use `\\.` instead of `\.`
 | [Matching Whitespace & Non-Whitespace Character](https://www.hackerrank.com/challenges/matching-whitespace-non-whitespace-character/problem) | ((\S){2}\s?){3} |
 | [Matching Word & Non-Word Character](https://www.hackerrank.com/challenges/matching-word-non-word/problem) | (\w){3}\W(\w){10}\W(\w){3} |
 | [Matching Start & End](https://www.hackerrank.com/challenges/matching-start-end/problem) | ^\d(\w){4}\.$ |
+| [Matching Specific Characters](https://www.hackerrank.com/challenges/matching-specific-characters/problem) | ^[1-3][0-2][xs0][30aA][xsu][.,]$ |
 
