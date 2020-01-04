@@ -18,4 +18,5 @@ For **Java** use `\\.` instead of `\.`
 | ------- | ----- |
 | [Excluding Specific Characters](https://www.hackerrank.com/challenges/excluding-specific-characters/problem) | ^[^0-9][^aeiou][^bcDF][\S][^AEIOU][^.,]$ |
 | [Matching Specific Characters](https://www.hackerrank.com/challenges/matching-specific-characters/problem) | ^[1-3][0-2][xs0][30aA][xsu][.,]$ |
+| [Matching Character Ranges](https://www.hackerrank.com/challenges/matching-range-of-characters/problem) | ^[a-z][1-9][^a-z][^A-Z][A-Z].* |
 
