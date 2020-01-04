@@ -25,4 +25,5 @@ For **Java** use `\\.` instead of `\.`
 | Problem | Regex |
 | ------- | ----- |
 | [Matching {x} Repetitions](https://www.hackerrank.com/challenges/matching-x-repetitions/problem) | ^[02468a-zA-Z]{40}[13579\s]{5}$ |
+| [Matching {x, y} Repetitions](https://www.hackerrank.com/challenges/matching-x-y-repetitions/problem) | ^[\d]{1,3}[a-zA-Z]{3,}[.]{0,3}$ |
 
