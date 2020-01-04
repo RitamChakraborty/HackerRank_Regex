@@ -20,3 +20,9 @@ For **Java** use `\\.` instead of `\.`
 | [Matching Specific Characters](https://www.hackerrank.com/challenges/matching-specific-characters/problem) | ^[1-3][0-2][xs0][30aA][xsu][.,]$ |
 | [Matching Character Ranges](https://www.hackerrank.com/challenges/matching-range-of-characters/problem) | ^[a-z][1-9][^a-z][^A-Z][A-Z].* |
 
+## Repetitions
+### Easy
+| Problem | Regex |
+| ------- | ----- |
+| [Matching {x} Repetitions](https://www.hackerrank.com/challenges/matching-x-repetitions/problem) | ^[02468a-zA-Z]{40}[13579\s]{5}$ |
+
