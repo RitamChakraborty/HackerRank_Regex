@@ -27,3 +27,5 @@ For **Java** use `\\` instead of single `\`
 | [Matching One Or More Repetitions](https://www.hackerrank.com/challenges/matching-one-or-more-repititions/problem) | ^[\d]+[A-Z]+[a-z]+$ |
 | [Matching Ending Items](https://www.hackerrank.com/challenges/matching-ending-items/problem) | ^[a-zA-Z]*s$ |
 
+## Grouping and Capturing
+| [Matching Word Boundaries](https://www.hackerrank.com/challenges/matching-word-boundaries/problem) | .*\b[aeiouAEIOU]+[a-zA-z]*\b.* |
