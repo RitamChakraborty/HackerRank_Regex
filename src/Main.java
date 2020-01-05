@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class Main {
 	public static void main(String[] args) {
 		String input = new Scanner(System.in).nextLine();
-		Pattern pattern = Pattern.compile(".*\\b[aeiouAEIOU]+[a-zA-z]*\\b.*");
+		Pattern pattern = Pattern.compile("^.*(ok){3,}+.*$");
 		System.out.println(pattern.matcher(input).matches());
 	}
 }

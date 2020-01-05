@@ -28,4 +28,7 @@ For **Java** use `\\` instead of single `\`
 | [Matching Ending Items](https://www.hackerrank.com/challenges/matching-ending-items/problem) | ^[a-zA-Z]*s$ |
 
 ## Grouping and Capturing
+| Problem | Regex |
+| ------- | ----- |
 | [Matching Word Boundaries](https://www.hackerrank.com/challenges/matching-word-boundaries/problem) | .*\b[aeiouAEIOU]+[a-zA-z]*\b.* |
+| [Capturing & Non-Capturing Groups](https://www.hackerrank.com/challenges/capturing-non-capturing-groups/problem) | ^.*(ok){3,}+.*$ |
