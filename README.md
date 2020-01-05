@@ -1,8 +1,7 @@
 # HackerRank Regex
-For **Java** use `\\.` instead of `\.`
+For **Java** use `\\` instead of single `\`
  
 ## Introduction
-### Easy
 | Problem | Regex |
 | ------- | ----- |
 | [Matching Specific String](https://www.hackerrank.com/challenges/matching-specific-string/problem) | hackerrank |
@@ -13,7 +12,6 @@ For **Java** use `\\.` instead of `\.`
 | [Matching Start & End](https://www.hackerrank.com/challenges/matching-start-end/problem) | ^\d(\w){4}\.$ |
 
 ## Character Class
-### Easy
 | Problem | Regex |
 | ------- | ----- |
 | [Excluding Specific Characters](https://www.hackerrank.com/challenges/excluding-specific-characters/problem) | ^[^0-9][^aeiou][^bcDF][\S][^AEIOU][^.,]$ |
@@ -21,7 +19,6 @@ For **Java** use `\\.` instead of `\.`
 | [Matching Character Ranges](https://www.hackerrank.com/challenges/matching-range-of-characters/problem) | ^[a-z][1-9][^a-z][^A-Z][A-Z].* |
 
 ## Repetitions
-### Easy
 | Problem | Regex |
 | ------- | ----- |
 | [Matching {x} Repetitions](https://www.hackerrank.com/challenges/matching-x-repetitions/problem) | ^[02468a-zA-Z]{40}[13579\s]{5}$ |
