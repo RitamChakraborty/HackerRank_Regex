@@ -32,3 +32,4 @@ For **Java** use `\\` instead of single `\`
 | ------- | ----- |
 | [Matching Word Boundaries](https://www.hackerrank.com/challenges/matching-word-boundaries/problem) | .*\b[aeiouAEIOU]+[a-zA-z]*\b.* |
 | [Capturing & Non-Capturing Groups](https://www.hackerrank.com/challenges/capturing-non-capturing-groups/problem) | ^.*(ok){3,}+.*$ |
+| [Alternative Matching](https://www.hackerrank.com/challenges/alternative-matching/problem) | `^(Mr|Mrs|Ms|Dr|Er)\.[a-zA-Z]+$` |
