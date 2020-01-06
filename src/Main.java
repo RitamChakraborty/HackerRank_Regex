@@ -1,10 +1,18 @@
 import java.util.Scanner;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
 	public static void main(String[] args) {
 		String input = new Scanner(System.in).nextLine();
-		Pattern pattern = Pattern.compile("^((tactac)+tic)+(tac|(tac)+tic)*$");
-		System.out.println(pattern.matcher(input).matches());
+		Pattern pattern = Pattern.compile("o(?=oo)");
+		Matcher matcher = pattern.matcher(input);
+		int count = 0;
+		
+		while (matcher.find()) {
+			++count;
+		}
+		
+		System.out.println("Number of matches : " + count);
 	}
 }

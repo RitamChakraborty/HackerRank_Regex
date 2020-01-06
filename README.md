@@ -81,3 +81,6 @@ For **Java** use `\\` instead of single `\`
 - [Backreferences To Failed Groups](https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem) - `^\d\d(-?)\d\d\1\d\d\1\d\d$`
 - [Branch Reset Groups](https://www.hackerrank.com/challenges/branch-reset-groups/problem) - `^\d\d((-)|(---)|(.)|(:))\d\d\1\d\d\1\d\d$`
 - [Forward References](https://www.hackerrank.com/challenges/forward-references/problem) - `^((tactac)+tic)+(tac|(tac)+tic)*$`
+
+## Assertions
+- [Positive Lookahead](https://www.hackerrank.com/challenges/positive-lookahead/problem) - `o(?=oo)`
