@@ -80,3 +80,4 @@ For **Java** use `\\` instead of single `\`
 - [Matching Same Text Again & Again](https://www.hackerrank.com/challenges/matching-same-text-again-again/problem) - `^([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10$`
 - [Backreferences To Failed Groups](https://www.hackerrank.com/challenges/backreferences-to-failed-groups/problem) - `^\d\d(-?)\d\d\1\d\d\1\d\d$`
 - [Branch Reset Groups](https://www.hackerrank.com/challenges/branch-reset-groups/problem) - `^\d\d((-)|(---)|(.)|(:))\d\d\1\d\d\1\d\d$`
+- [Forward References](https://www.hackerrank.com/challenges/forward-references/problem) - `^((tactac)+tic)+(tac|(tac)+tic)*$`
