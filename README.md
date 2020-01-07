@@ -69,7 +69,7 @@ For **Java** use `\\` instead of single `\`
             </td>
             <td>
                 <code>
-                    ^(Mr|Mr\Ms\Dr\Er)\.[a-zA-Z]+$
+                    ^(Mr|Mr|Ms|Dr|Er)\.[a-zA-Z]+$
                 </code>
             </td>
         </tr>
