@@ -84,3 +84,4 @@ For **Java** use `\\` instead of single `\`
 
 ## Assertions
 - [Positive Lookahead](https://www.hackerrank.com/challenges/positive-lookahead/problem) - `o(?=oo)`
+- [Negative Lookahead](https://www.hackerrank.com/challenges/negative-lookahead/problem) - `(.)(?!\1)`
