@@ -86,3 +86,4 @@ For **Java** use `\\` instead of single `\`
 - [Positive Lookahead](https://www.hackerrank.com/challenges/positive-lookahead/problem) - `o(?=oo)`
 - [Negative Lookahead](https://www.hackerrank.com/challenges/negative-lookahead/problem) - `(.)(?!\1)`
 - [Positive Lookbehind](https://www.hackerrank.com/challenges/positive-lookbehind/problem) - `(?<=[13579])[0-9]`
+- [Negative Lookbehind](https://www.hackerrank.com/challenges/negative-lookbehind/problem) - `(?<![aeiouAEIOU]).`
