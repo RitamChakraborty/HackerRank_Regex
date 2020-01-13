@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class Main {
 	public static void main(String[] args) {
 		String input = new Scanner(System.in).nextLine();
-		Pattern pattern = Pattern.compile("(.)(?!\\1)");
+		Pattern pattern = Pattern.compile("(?<=[13579])[0-9]");
 		Matcher matcher = pattern.matcher(input);
 		int count = 0;
 		
